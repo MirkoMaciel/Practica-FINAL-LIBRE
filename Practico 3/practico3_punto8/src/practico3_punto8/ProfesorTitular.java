@@ -42,7 +42,7 @@ public class ProfesorTitular extends Profesor {
 
 	@Override
 	public String toString() {
-		return "Profesor Titular" +super.toString()+ " | Antiguedad: "+ antiguedad + " | Valor por antiguedad: " + valorAntiguedad;
+		return "Profesor Titular: " +super.toString()+ " | Antiguedad: "+ antiguedad + " | Valor por antiguedad: " + valorAntiguedad;
 	}
 
 	

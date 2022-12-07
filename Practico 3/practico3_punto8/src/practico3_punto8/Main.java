@@ -33,14 +33,14 @@ public class Main {
 		System.out.println("TITULARES:");
 		for (int i = 0; i < titulares.size(); i++) {
 			System.out.println(titulares.get(i).toString());
-			System.out.println("Remuneración:" + titulares.get(i).getRemuneracionMensual());
+			System.out.println("Remuneracion: " + titulares.get(i).getRemuneracionMensual());
 		}
 	
-		System.out.println("\n SUPLENTES: ");
+		System.out.println("\nSUPLENTES: ");
 		for (int i = 0; i < suplentes.size(); i++) {
 			System.out.println(suplentes.get(i).toString());
 			System.out.println("Es titular? No");
-			System.out.println("Remuneración:" + suplentes.get(i).getRemuneracionMensual());
+			System.out.println("Remuneracion: " + suplentes.get(i).getRemuneracionMensual());
 		}
 		
 	}

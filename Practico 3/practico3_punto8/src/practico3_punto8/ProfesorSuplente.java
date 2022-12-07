@@ -21,7 +21,7 @@ public class ProfesorSuplente extends Profesor {
 
 	@Override
 	public String toString() {
-		return "Profesor Suplente"+super.toString();
+		return "Profesor Suplente: "+super.toString();
 	}
 
 	
