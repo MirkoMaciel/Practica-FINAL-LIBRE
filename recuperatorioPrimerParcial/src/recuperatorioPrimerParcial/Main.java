@@ -35,6 +35,7 @@ public class Main {
 
 		for (Materia materia : materias) { // 1)Los datos de cada materia, con su listado de alumnos
 			System.out.println(materia.toString());
+			System.out.println("Listado alumnos: ");
 			materia.listadoAlumnos();
 			System.out.print("\n\n");
 		}

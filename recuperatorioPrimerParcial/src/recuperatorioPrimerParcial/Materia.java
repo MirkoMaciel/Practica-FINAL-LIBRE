@@ -42,8 +42,7 @@ public class Materia {
 	
 	@Override
 	public String toString() {
-		return "Materia: " + nombre + " | Codigo: " + codigo + " | Anio: " + anio + " | Profesor: " + profesor
-				+ " | \nListado alumnos: ";
+		return "Materia: " + nombre + " | Codigo: " + codigo + " | Anio: " + anio + " | Profesor: " + profesor;
 	}
 	
 	
