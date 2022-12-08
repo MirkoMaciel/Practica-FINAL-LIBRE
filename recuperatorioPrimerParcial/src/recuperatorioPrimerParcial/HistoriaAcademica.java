@@ -17,6 +17,9 @@ public class HistoriaAcademica {
 		for (Entry<Materia, Integer> valor : materias.entrySet()) {    
 			System.out.println( valor.getKey().impresion()+ " - Nota: "+valor.getValue());
 		}
+		if (materias.isEmpty()) {
+			System.out.println("No está inscripto en ninguna materia");
+		}
 	}
 	
 	public void agregarMateria(Materia materia , Integer nota) {

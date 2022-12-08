@@ -22,13 +22,5 @@ public class Alumno extends Persona{
 		return "Alumno: "+ super.toString()+ " | ";
 	}
 
-	public HistoriaAcademica getHistorial() {
-		return historial;
-	}
-
-	public void setHistorial(HistoriaAcademica historial) {
-		this.historial = historial;
-	}
-
 	
 }
